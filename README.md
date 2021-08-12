@@ -16,3 +16,4 @@ Feel free to look into the code for further comprehension/learning.  Clone yours
 - _ReportGen_: module with python files for generating report
 - _data_: preset data used for report
 - _main.py_: main report program
+- _design_template.pptx_: required for master report template

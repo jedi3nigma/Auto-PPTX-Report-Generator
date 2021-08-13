@@ -6,11 +6,13 @@ Feel free to look into the code for further comprehension/learning.  Clone yours
 
 ### To run this program:
 
-1. Clone repository to your local.
-2. Create and activate virtual environment.  Run `pip install -r requirements.txt` to install package dependencies.  You may skip this if you already have the package versions of the required libraries.
-3. Open terminal and run `python main.py`.
+1. Create virtual environment by entering into command terminal `python -m venv {name of your folder containing virtual environment}`.
+2. Activate environment with `.\{name of environment folder}\Scripts\activate`.
+3. Clone repository to your local by downloading folder to environment or entering command in terminal `git clone https://github.com/jedi3nigma/Auto-PPTX-Report-Generator.git`.
+4. Change directory to downloaded repo and run `pip install -r requirements.txt` to install package dependencies.
+5. Run `python main.py`.  A Powerpoint file should be generated along with relevant images in the "img" folder.
 
-### Repo contents:
+### Repo contents/outputs:
 - _Sample_:  contains generated files from program as reference
 - _img_: contains default images (logos) for Powerpoint report
 - _ReportGen_: module with python files for generating report

@@ -4,3 +4,4 @@ six==1.15.0
 numpy==1.19.4
 python-pptx==0.6.19
 pandas==1.2.4
+openpyxl==3.0.7

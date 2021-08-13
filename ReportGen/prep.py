@@ -7,7 +7,7 @@ def consolidate_data(file_root):
     data_folder = os.path.join(os.getcwd(), 'data')
     files = pd.Series(os.listdir(data_folder), name='Document')
     file_filter = files.str.contains(file_root)
-    data = [pd.read_excel(os.path.join(data_folder, f))
+    data = [pd.read_excel(os.path.join(data_folder, f), engine='openpyxl')
             for f in files[file_filter]]
     if len(data) > 1:
         return pd.concat(data).reset_index(drop=True)

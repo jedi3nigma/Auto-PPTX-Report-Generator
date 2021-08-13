@@ -7,7 +7,7 @@ Feel free to look into the code for further comprehension/learning.  Clone yours
 ### To run this program:
 
 1. Clone repository to your local.
-2. Create and activate virtual environment.  Run `pip install -r requirements.txt` to install package dependencies.  You may skip this if you already have required package versions of required libraries.
+2. Create and activate virtual environment.  Run `pip install -r requirements.txt` to install package dependencies.  You may skip this if you already have the package versions of the required libraries.
 3. Open terminal and run `python main.py`.
 
 ### Repo contents:
